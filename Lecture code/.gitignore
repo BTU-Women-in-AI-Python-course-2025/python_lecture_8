@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# If you are using Django collectstatic
+/static/
+/media/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Migrations (optional, keep if you want to version control them)
+/**/migrations/*.py
+!/**/migrations/__init__.py
+
+# Coverage and testing
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.junit/
+
+# Environment variables
+.env
+*.env
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Local configs
+*.local
